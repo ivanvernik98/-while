@@ -1,0 +1,8 @@
+  while (attempts > 0) {
+        print("Enter your guess: ")
+        val guess = readLine()?.toIntOrNull()
+
+        if (guess == null) {
+            println("Please enter a valid number.")
+            continue
+        }
